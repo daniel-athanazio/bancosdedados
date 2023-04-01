@@ -1,0 +1,1 @@
+ a hierarquia dos objetos no PostgreSQL é: banco de dados > esquema > tabela > índice/sequência/função/visualização/procedimento armazenado/gatilho.

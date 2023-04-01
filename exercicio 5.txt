@@ -1,0 +1,1 @@
+Uma chave primária em um banco de dados é um campo ou conjunto de campos que identifica exclusivamente cada registro em uma tabela. Os principais benefícios de usar uma chave primária incluem garantir a unicidade dos dados, aumentar a eficiência das consultas ao banco de dados, facilitar o uso e manutenção dos dados e garantir a integridade dos dados.

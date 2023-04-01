@@ -1,0 +1,11 @@
+Normalização de dados é o processo de organizar as informações em um banco de dados para reduzir a redundância de dados e aumentar a integridade dos dados.
+
+As três principais formas normais são:
+
+Primeira Forma Normal (1FN): requer que cada coluna de uma tabela contenha apenas valores atômicos (indivisíveis) e que cada registro seja exclusivo e identificado por uma chave primária única.
+
+Segunda Forma Normal (2FN): requer que cada coluna não chave de uma tabela seja dependente de toda a chave primária, em vez de apenas parte dela.
+
+Terceira Forma Normal (3FN): requer que cada coluna não chave de uma tabela seja dependente apenas da chave primária ou de outras colunas não chave, e não de outras colunas não chave.
+
+Essas formas normais ajudam a evitar a redundância de dados, melhoram a eficiência do banco de dados e reduzem a possibilidade de anomalias de dados.

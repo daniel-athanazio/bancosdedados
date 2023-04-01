@@ -1,0 +1,11 @@
+create table tb_dados_cadastro(
+codigo int primary key generated always as identity,
+nome_completo varchar (50),
+data_nascimento date,
+possui_filho varchar(1)
+)
+insert into tb_dados_cadastro (nome_completo,data_nascimento,possui_filho)
+values
+('erick louzada marcos', '08/07/0800', 'N'), ('lucas marques ', '01/09/1200', 'S'), ('daniel mollo', '12/09/2025', 'N'), ('luiz perderdor de linha', '01/01/2058', 'N'), ('joao joador joes', '11/11/9999', 'N')
+;
+delete from tb_dados_cadastro  where codigo = 3 drop table tb_dados_cadastro ;
